@@ -1,0 +1,103 @@
+@font-face {
+    font-family: 'FlamaSemiCondensed';
+    src: url('assets/FlamaSemicond-Bold-Pol.woff2');
+  
+}
+
+@font-face {
+    font-family: 'Capitolium';
+    src: url('assets/CapitoliumSemibold.woff2');
+  
+}
+
+#teaser-container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    max-width: 300px;
+   
+}
+
+
+
+.teaser-section {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+    color: #333;
+    font-family: 'FlamaSemiCondensed';
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1px;
+    text-align: left;
+    border-left: #333 2px solid;
+    height: 16px;
+    padding-left: 8px;
+    margin-bottom: 8px;
+}
+
+.teaser-rating {
+    position: absolute;
+    z-index: 10;
+    display: flex;
+    gap: 3px;
+    flex-wrap: wrap;
+    justify-content: left;
+  
+}
+
+.teaser-rating .heart {
+    width: 32px;
+    height: 32px;
+ 
+  
+}
+
+.teaser-rating .heart.faded {
+    opacity: 0.2;
+}
+
+.teaser-image {
+    width: 290px;
+    height: auto;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.teaser-title {
+    font-family: 'Capitolium';
+    font-weight: bold;
+    color: #333;
+    margin: 0;
+ 
+    
+}
+
+.label-title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: #333; 
+}
+
+#font-dropdown {
+    display: inline-block;
+    padding: 20px 0 20px 0; 
+    width: 97%;
+    max-width: 300px; 
+    box-sizing: border-box; 
+  
+ 
+}
+
+#font-size-selector {
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 0px;
+    border: 2px solid #333;
+    cursor: pointer;
+    width: 100%; 
+}
+
+

@@ -1,0 +1,20 @@
+{
+    "teaserOptions": [
+        {
+            "id": "small",
+            "fontSizeOption": "22px"
+        },
+        {
+            "id": "medium",
+            "fontSizeOption": "28px"
+        },
+        {
+            "id": "large",
+            "fontSizeOption": "44px"
+        },
+        {
+            "id": "huge",
+            "fontSizeOption": "50px"
+        }
+    ]
+}

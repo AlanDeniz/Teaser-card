@@ -1,0 +1,26 @@
+{
+    "article": {
+        "id": 123456789,
+        "title": "Du behøver ikke lede længere. Sommerens hit er allerede fundet",
+        "image": {
+            "link": {
+                "url": "https://politiken.dk/incoming/img10039132.rvd6pm/ORIGINALS/original_960/carpenter%201"
+            }
+        },
+        "rating": {
+            "score": 4
+        }
+    },
+    "stamp": {
+        "section": {
+            "title": "Musik",
+            "href": {
+                "linkText": "Musik",
+                "url": "/kultur/musik/"
+            }
+        }
+    },
+    "fontselector": {
+        "title":"Choose a font size"
+     }
+}
